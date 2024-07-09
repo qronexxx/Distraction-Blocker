@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Distraction Blocker",
+    "version": "1.0",
+    "permissions": ["alarms", "tabs", "activeTab", "scripting", "storage"],
+    "description": "Limit your time on social media and other distracting websites. Stay focused and be productive!",
+    "background": {
+        "service_worker": "src/background/background.js"
+    },
+    "action": {
+        "default_popup": "src/popup/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["src/popup/popup.js", "src/background/blocking.js"]
+        }
+    ]
+}
