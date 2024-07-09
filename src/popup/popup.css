@@ -1,0 +1,67 @@
+body {
+    width: 500px;
+    height: 500px;
+    background-color: #f8f9fa;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+body:not(.dark-mode) #darkModeToggle {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+body.dark-mode .form-control {
+    background-color: #555;
+    color: #fff;
+    border-color: #777;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body.dark-mode .list-group-item-dark {
+    background-color: #121212;
+    color: #fff;
+    border: 2px solid transparent; 
+}
+
+body.dark-mode .list-group-item-dark:hover {
+    border-color: #007bff; 
+}
+
+body.dark-mode .list-group.border-dark-mode {
+    border: 2px solid #555;
+}
+
+
+.list-group-item {
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.list-group-item-dark {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.delete-button img {
+    width: 16px;
+    height: 16px;
+}
