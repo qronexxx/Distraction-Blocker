@@ -22,7 +22,7 @@ This project requires a Chromium-based browser to be installed, such as:
 ## Latest Releases
 You can find the latest releases and version history on the Releases page.
 
-API References
+## API References
 For more information on the APIs used in this project, refer to the [Chrome Extension API documentation](https://developer.chrome.com/docs/extensions/reference/api?hl=en).
 
 ## Build and Test
